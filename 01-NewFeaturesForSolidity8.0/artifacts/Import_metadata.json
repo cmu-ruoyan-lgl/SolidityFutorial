@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "pow2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"01-NewFeaturesForSolidity8.0/04-Import.sol": "Import"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"01-NewFeaturesForSolidity8.0/03-FuncOutsideContract.sol": {
+			"keccak256": "0x034208c4d0bc5129df41f874fdcd516d90d327601c0f4760368ddaffed65e8d2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://723c5790c6bef57105eebc5801552aa1a892ddac0f7e833a39d75a5e34924b83",
+				"dweb:/ipfs/QmRroDePEUKAUaZGo7TAtsqF3nSEV7u68kdF3XgotrhYnj"
+			]
+		},
+		"01-NewFeaturesForSolidity8.0/04-Import.sol": {
+			"keccak256": "0xb5c3f8cd99e9d28afaa889a5c1b7e73d119565960c7c212d58b0f493e80aac71",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6044555af88c898de021d444b4126c20f906bee935be6fd5287c0ed86f3475b5",
+				"dweb:/ipfs/QmSmt5pPbPuXhzHWa5MK8Ei28gE4C7nnnxacjgj9yutPrv"
+			]
+		}
+	},
+	"version": 1
+}

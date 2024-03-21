@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "unAuthorized",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "withDraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"01-NewFeaturesForSolidity8.0/02-Error.sol": "Error"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"01-NewFeaturesForSolidity8.0/02-Error.sol": {
+			"keccak256": "0xf7094ef4f1afd9c7d873fda1f541256b9153ecfc3afb12b8d8b2cb297fa29b68",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c87daa355c5f0d593ef726d55b50922cd7e957b0725d8bad92ee1e33bf73f9cd",
+				"dweb:/ipfs/QmbVacseT3QDHnREvsYdPdSfZFaTSNZZU1tnGd8ykvZJVo"
+			]
+		}
+	},
+	"version": 1
+}

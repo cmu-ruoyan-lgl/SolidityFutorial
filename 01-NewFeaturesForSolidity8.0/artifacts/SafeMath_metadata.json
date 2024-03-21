@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "uintUncheckedUnderFlow",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "uintUnderFlow",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"01-NewFeaturesForSolidity8.0/test1.sol": "SafeMath"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"01-NewFeaturesForSolidity8.0/test1.sol": {
+			"keccak256": "0xa2a749599acb3198133346d5cec2fa9bb5717da3b2a390ced957e00f05be9dce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cf72c90a350ebfa093a514ac6b33d0e9a7fc76c938d3be8ed2b54e020421f701",
+				"dweb:/ipfs/Qma6AMgWHWRsQsNe1LuK56k6ExdZ9KMYBdDHgM4XxCCgAf"
+			]
+		}
+	},
+	"version": 1
+}
