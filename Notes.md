@@ -14,4 +14,42 @@ revert(string)随string变长，gas消耗变高。
 #### 5.Create2
 在create2中，可以指定salt，可以指定合约地址。
 在合约部署之前，确定合约的部署地址。
-###
+
+--------
+
+### Solidity Basic
+
+#### 1.variable
+
+uint == uint256 [0,2^256-1]
+uint8 [0,2^8-1]
+uint16 [0,2^16-1]
+int == int256 [-2^255,2^255-1]
+int128 [-2^127,2^127-1]
+typeA [type(typeA).min,type(typeA).max]
+
+string 
+address public addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+// 20字节 加上0x长度是42个字符
+bytes32 public b32 = keccak256(abi.encodePacked("Hello, World!"));
+// 32字节 长64字符 下标[0,63]
+
+#### 2.function
+
+- 合约外function：当library用，当和合约内函数有重名函数时只会找合约内函数
+- 合约内function：
+function [函数名] (pram...) [public/private/internal/external] [空/pure/view/payable] [空/returns (typeA...)] {
+    [空/returns (typeA...)];
+    // returns 中可以定义变量，如果需要返回的变量都是定义好的就可以省略
+}
+
+访问控制关键字:
+public：表示函数可以在合约外部调用。
+private：表示函数只能在合约内部调用。
+internal：表示函数可以在合约内部以及继承自该合约的子合约中调用。
+external：表示函数只能在合约外部调用，不能在合约内部调用。
+
+函数修饰符:
+pure：表示函数不会修改合约的任何状态，也不会读取任何状态。
+view：表示函数不会修改合约的任何状态，但可以读取状态。
+payable：表示函数可以接收Ether。
