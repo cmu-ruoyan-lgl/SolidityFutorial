@@ -6,3 +6,4 @@
 学习过程中用到的其他网站：
 - [如何连接Remix编译器到本地](https://www.cnblogs.com/n0hackers/p/17398440.html)
 - [Solidity8.0新特性](https://docs.soliditylang.org/en/v0.8.24/080-breaking-changes.html)
+- [Solidity8.24官方文档](https://docs.soliditylang.org/en/v0.8.24/)
