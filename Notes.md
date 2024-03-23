@@ -34,6 +34,8 @@ address public addr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
 bytes32 public b32 = keccak256(abi.encodePacked("Hello, World!"));
 // 32字节 长64字符 下标[0,63]
 
+[type] [空/immutable(推荐使用)/constant(已经弃用)] [public/private/internal] [变量名]
+
 #### 2.function
 
 - 合约外function：当library用，当和合约内函数有重名函数时只会找合约内函数
@@ -53,3 +55,16 @@ external：表示函数只能在合约外部调用，不能在合约内部调用
 pure：表示函数不会修改合约的任何状态，也不会读取任何状态。
 view：表示函数不会修改合约的任何状态，但可以读取状态。
 payable：表示函数可以接收Ether。
+
+#### Some other useful matters
+
+#### 1.delete
+
+type x;
+delete x; 
+会把x所占用的空间释放，x的值会变为0
+
+#### 2.默认值
+
+solidity中，默认值是0，false，address(0)，0x0000000000000000000000000000000000000000
+所有的变量默认的占有的空间都是0
