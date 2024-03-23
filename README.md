@@ -1,4 +1,6 @@
-# SolidityTutorial
+# SolidityTutorial for Beginners
+# 版本：0.8.7
+# 作者：Ruoyan
 
 写个崔棉大师的solidity教程的代码笔记
 [崔棉大师Solidity教程](https://www.bilibili.com/video/BV1oZ4y1B7WS/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=5e7331f28afe4ab47831db6b1fe009e8)
